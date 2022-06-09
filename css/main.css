@@ -310,6 +310,7 @@ body {position: relative;}
   border-radius: 40px;
   text-align: center;
   margin: 9px;
+  transition: all 0.15s;
 }
 .our-best-engineers .our-card .card-button p:hover {
   background-color: var(--bl);
