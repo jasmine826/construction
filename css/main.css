@@ -28,7 +28,7 @@ header .logo {
   font-size: 25px;
 }
 
-header .menu {background-color: lightblue;}
+header .menu {}
 header .menu ul {
   height: 56px;
   display: flex;
