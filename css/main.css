@@ -239,7 +239,125 @@ body {position: relative;}
 
 
 
-/* OUR BEST ENGINEERS */
+
+
+
+
+
+/* OUR BEST - 스와이퍼 사용 */
+.our-best {
+  width: 1170px; height: 800px;
+  margin: 140px auto;
+  display: flex;
+  flex-direction: column;
+}
+.our-best .our-title {
+  text-align: center;
+}
+.our-best .our-card {
+  position: relative;
+}
+.our-best .our-card .cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 78px 0;
+}
+.our-best .our-card .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px; height: 376px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 30px;
+  
+}
+.our-best .our-card .cards .card01 {}
+.our-best .our-card .cards .card02 {}
+.our-best .our-card .cards .card03 {}
+.our-best .our-card .cards .card .top {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-best .our-card .cards .card .top .star {}
+.our-best .our-card .cards .card .top .more {}
+.our-best .our-card .cards .card .mid {
+  margin: 15px 0 40px;
+  text-align: center;
+}
+.our-best .our-card .cards .card .mid .mid-img {
+  margin-bottom: 22px;
+}
+.our-best .our-card .cards .card .mid .mid-info {
+}
+.our-best .our-card .cards .card .mid .mid-info .name {
+  font-size: 24px;
+}
+.our-best .our-card .cards .card .mid .mid-info .address {
+  font-size: 12px;
+  color: #6B6B6B; 
+}
+                                 /* 여기 두개 왜 css안먹힐까..? 따흐흑 */
+.our-best .our-card .cards .card .btm {text-align: center;}
+.our-best .our-card .cards .card .btm .phone {color: var(--gr);}
+.our-best .our-card .cards .card .btm .email {color: var(--bl); font-size: 17px;}
+
+
+
+.our-best .card-button {
+  display: flex;
+  width: 120px; height: 66px;
+  border-radius: 65px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.our-best .card-button p {
+}/* 여기 가로가 안먹음 */
+.our-best .card-button p span {
+  width: 50px; 
+  text-align: center;
+  margin-bottom: 13px;
+}
+.our-best .card-button p {color: var(--bk);}
+.our-best .card-button .prev:hover {
+  background-color: var(--bl);
+  color: #fafafa;
+}
+.our-best .card-button .next:hover {
+  background-color: var(--bl);
+  color: #fafafa;
+}
+.our-best .card-button .prev {
+  margin-right: 0;
+  width: 50px; height: 50px;
+  border-radius: 40px;
+}
+.our-best .card-button .next {
+  margin-right: 0;
+  width: 50px; height: 50px;
+  border-radius: 40px;
+}
+.our-best .card-button .prev .prev-btn {
+  transform: scaleX(-1);
+  margin-top: 13px;
+}
+.our-best .card-button .next {
+  margin-left: 0;
+}
+.our-best .card-button .next .next-btn{margin-top: 13px;}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+
+/* OUR BEST ENGINEERS 
 .our-best-engineers {
   width: 1170px; height: 800px;
   margin: 140px auto;
@@ -278,6 +396,7 @@ body {position: relative;}
 .our-best-engineers .our-card .cards .card .top .more {}
 .our-best-engineers .our-card .cards .card .mid {
   margin: 15px 0 40px;
+  text-align: center;
 }
 .our-best-engineers .our-card .cards .card .mid .mid-img {
   margin-bottom: 22px;
@@ -291,7 +410,7 @@ body {position: relative;}
   font-size: 12px;
   color: #6B6B6B; 
 }
-                                 /* 여기 두개 왜 css안먹힐까..? 따흐흑 */
+                                 /* 여기 두개 왜 css안먹힐까..? 따흐흑 *
 .our-best-engineers .our-card .cards .card .btm {text-align: center;}
 .our-best-engineers .our-card .cards .card .btm .phone {color: var(--gr);}
 .our-best-engineers .our-card .cards .card .btm .email {color: var(--bl); font-size: 17px;}
@@ -327,7 +446,7 @@ body {position: relative;}
   margin-left: 0;
 }
 .our-best-engineers .our-card .card-button .next .next-btn{margin-top: 13px;}
-
+*/
 
 
 
@@ -533,6 +652,7 @@ footer .footer-in .footer-info .info-txt {
   color: var(--gr);
 }
 footer .footer-in .footer-info .info-txt li {margin-bottom: 18px;}
+footer .footer-in .footer-info .info-txt li:hover {color: #313131;}
 
 footer .footer-in .info-01 .info-tit {
   color: var(--bl);
@@ -578,5 +698,13 @@ footer .copyright {
   color: #c2c2c2;
   font-size: 14px ;
 }
+
+
+
+
+
+
+
+
 
 
