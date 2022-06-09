@@ -28,9 +28,9 @@ header .logo {
   font-size: 25px;
 }
 
-header .menu {}
+header .menu {background-color: lightblue;}
 header .menu ul {
-  height: 38px;
+  height: 56px;
   display: flex;
   align-items: center;
   
@@ -40,9 +40,15 @@ header .menu li {
   margin: 0 35px 0 0;
   z-index: 10;
   transition: all 0.3s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
+header .menu li p {opacity: 0; transition: all 0.3s;}
 header .menu li:last-child {margin-right: 0;}
 header .menu li:hover {font-weight: bold; }
+header .menu li:hover p {opacity: 1; }
                                             /* hover주고 bold됐을때 덜그럭 안거리게 width값 안주고 어떻게 하더랍 */
                                             /* hover하면 밑에 점 생기게 어떻게 하지? */
 header .menu li a {}
@@ -215,7 +221,7 @@ body {position: relative;}
   font-weight: 600;
   float: left;
   position: relative;
-  top: -40px; 
+  top: -0px; 
   margin-left: 25px;
 }
 .choose-us .ch-box2 .box2-text .text .pic-txt .box{
