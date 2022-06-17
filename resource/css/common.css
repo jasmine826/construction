@@ -104,7 +104,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   padding: 20px 0;
 }  
-.section-explain {display: none;}
+.hide {display: none;}
 
 
 
