@@ -41,19 +41,19 @@
             <ul>
                 <li>
                     <a href="#none">Home</a>
-                    <p>•</p>
+                    <!-- <p>•</p> -->
                 </li>
                 <li>
                     <a href="#none">About Us</a>
-                    <p>•</p>
+                    <!-- <p>•</p> -->
                 </li>
                 <li>
                     <a href="#none">Services</a>
-                    <p>•</p>
+                    <!-- <p>•</p> -->
                 </li>
                 <li>
                     <a href="#none">Project</a>
-                    <p>•</p>
+                    <!-- <p>•</p> -->
                 </li>
             </ul>
         </nav>
@@ -377,7 +377,7 @@
 </section>
 
 <!-- CONTACT US -->
-<section class="contact-us">
+<section class="contact-us"  style="display: none;">
     
     <div class="contact-title">
         <h2 class="tit">Contact Us</h2>
@@ -394,6 +394,46 @@
                     <p></p>
                     <input type="text" placeholder="Maessage">
                 </div>
+            </div>
+            <button class="contact-btn buttons">
+                <a href="#none" class="btn btn01">Send Massage</a>
+            </button>
+        </div>
+        <div class="detail-box2"><img src="./resource/img/Group 597.png" alt="map"></div>
+    </div>
+
+</section>
+
+<!-- CONTACT US 양식 변경 -->
+<section class="contact-us">
+    
+    <div class="contact-title">
+        <h2 class="tit">Contact Us</h2>
+        <p class="tit-txt">Blessing welcomed ladyship she met humoured sir breeding her. <br>Six curiosity day assurance bed necessary.</p>
+    </div>
+    <div class="contact-detail">
+        <div class="detail-box1">
+            <div class="concact_list">
+                <form action="get" class="contact_list">
+                    <p class="get-p">
+                    <input type="text" id="user_name" autocomplete="off" required>
+                    <label for="user_name"><span>Name</span></label>
+                    </p> 
+                    <p class="get-p">
+                    <input type="text" id="user_email" autocomplete="off" required>
+                    <label for="user_name"><span>Email</span></label>
+                    </p> 
+                    <p class="get-p">
+                    <input type="text" id="user_subject" autocomplete="off" required>
+                    <label for="user_name"><span>Subject</span></label>
+                    </p> 
+                    <p class="get-p get-p-message">
+                    <input type="text" id="user_message" autocomplete="off" required>
+                    <label for="user_name"><span>Message</span></label>
+                    <!-- textarea사용해보고싶은데 그럼 label움직이는거 어떻게 하지?! -->
+                    <!-- <textarea name="message" id="user_message" cols="30" rows="10"></textarea> -->
+                    </p> 
+                </form>
             </div>
             <button class="contact-btn buttons">
                 <a href="#none" class="btn btn01">Send Massage</a>
@@ -519,6 +559,8 @@
     </div>
 
 </footer>
+
+
 
 
 
